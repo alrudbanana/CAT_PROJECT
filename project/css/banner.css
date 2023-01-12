@@ -1,0 +1,9 @@
+.slide_wrap{
+    position: relative;
+}
+
+.wrap > .slide_wrap img{
+    border: 1px solid rosybrown;
+    width: 100%;
+}
+

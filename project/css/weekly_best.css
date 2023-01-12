@@ -1,0 +1,21 @@
+
+        .flex-container {
+            display: inline-flex;
+        }
+
+        .flex-container > div{
+            width: 400px;
+            height: 400px;
+            margin: 16px;
+            text-align: center;
+            border: 1px salmon solid;
+        }
+
+        .flex-container img{
+            width: 400px;
+            height: 400px;
+        }
+       
+        .wrap{
+            text-align: center;
+        }
