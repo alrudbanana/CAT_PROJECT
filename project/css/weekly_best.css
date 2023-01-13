@@ -1,15 +1,15 @@
 @font-face {
-    font-family: 'GangwonEduPowerExtraBoldA';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2201-2@1.0/GangwonEduPowerExtraBoldA.woff') format('woff');
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
-        
         *{
             font-size: 12px;
         }
         .flex-container {
             display: inline-flex;
+
         }
 
         .flex-container > div{
@@ -27,6 +27,8 @@
        
         .wrap{
             text-align: center;
+            width: 100%;
+
         }
 
         .hover_text{
@@ -43,7 +45,8 @@
         .hover_text > li{
             font-size: 16px;
             font-weight: 800;
-            font-family: 'GangwonEduPowerExtraBoldA';
+            font-family: 'NanumSquareNeo-Variable';
             list-style-type: none;
             padding: 60px 10px 30px 10px;
         }
+

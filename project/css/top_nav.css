@@ -1,0 +1,61 @@
+.wrap{
+    margin: auto 0;
+}
+
+
+.top_nav{
+    height: 50px;
+    border-bottom: 0.4px solid rgba(128, 128, 128,0.2);
+}
+
+.t_menu {
+    width: 400px;
+    margin-top: 10px;
+}
+
+.t_menu a{
+font-size: 12px;
+font-weight: 800;
+color:#4a4a4a;
+}
+
+.t_menu li {
+    display: inline;
+    margin: 10px;
+}
+
+.sns_logo {
+    display: inline;
+    position: relative; bottom:45%; left: 820px;
+}
+
+.sns_logo img{
+    width: 25px;
+    height: 25px;
+    padding: 10px;
+}
+
+
+.right_menu {
+    margin-top: 10px;
+    float: right;
+}
+.right_menu ul{
+   position: relative; top: -20px;
+   margin-right: 10px;
+}
+
+.right_menu a {
+    font-size: 12px;
+    font-weight: 800;
+    color: #4a4a4a;
+}
+
+
+.right_menu li {
+    display: inline;
+    margin: 10px;
+}
+
+
+
