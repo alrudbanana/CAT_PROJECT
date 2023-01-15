@@ -1,0 +1,114 @@
+  .container {
+    width: 1200px;
+    margin: 20px auto;
+    padding: 50px;
+  } /*폭을 일정하게 담기 위한 css*/
+  
+  #one {
+    display: flex;
+  } /* container div중 하나를 선택하기 위한 id태그*/
+  
+  #one img {
+    width: 80%;
+  }
+  .first {
+    width: 50%;
+    
+    
+  } /* 화면을 이분할하기 위해 width에 50% 적용 */
+
+  .title {
+    font-size: 23px;
+    font-weight: bold;
+    margin: 0 30px 40px 0;
+  }
+
+  .second {
+    width: 50%;
+    margin-left: 30px;
+  } /* 화면을 이분할하기 위해 width에 50% 적용 */
+  
+  .gray {
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: right;
+    color: gray;
+    font-size: 12px;
+    font-style: bold;
+  }
+ 
+  .m_toy {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 0;
+
+  }
+  #heart2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+  .seconddetail {
+    padding-top: 17px;
+    border-top: 1px solid black;
+    font-size: 13px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    border-bottom: 0.4px solid lightgray;
+    margin: 0;
+  }
+  
+
+  .productdetail2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    margin-bottom: 15px;
+    display: flex;
+  }
+
+
+  .boxone > table tr td{
+    border-collapse: collapse; 
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-left: 12px;
+    margin-right: 12px;
+    border-right: 1px solid silver;
+    padding-bottom: 10px;
+    width: 550px;
+  }
+
+ 
+
+
+  /*option*/
+ 
+  .option select {
+    display: flex;
+    background-color: rgb(243, 240, 240);
+    align-items: center;
+    padding-left: 10px;
+    border-radius: 3px;
+    font-weight: bold;
+  }
+
+
+  /*리뷰*/
+ 
+  
+  .reviewcomment {
+    font-size: 13px;
+    font-weight: bold;
+    color: rgb(151, 143, 143);
+    background-color: rgb(243, 240, 240);
+    margin-top: 20px;
+    padding: 7px;
+    width: 100%;
+    border: 1px solid rgb(243, 240, 240);
+  } /* 리뷰 입력창을 위한 CSS*/
+
+
+

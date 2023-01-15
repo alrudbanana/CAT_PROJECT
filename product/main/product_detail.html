@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>product_detail</title>
+    <link rel="stylesheet" href="../css/product_detail.css">
+</head>
+
+<body>
+<div class="wrap">
+    <section> <!--중반부의 레이아웃-->
+
+        <div class="container" id="one"> <!-- 중반부 전체를 감싸는 div 태그-->
+            
+            <div class="first"> <!--중반부 를 두개의 div태그로 나누어 왼쪽 절반의 구역으로 나눠줌-->
+                <p class="title">[ 쥬아펫 1m 왕타조깃털 고양이장난감 ]</p>
+                <img src="../img/week1.jpg" alt="타조깃털">
+            </div>
+
+            <div class="second"> <!--중반부 를 두개의 div태그로 나누어 오른쪾 절반의 구역으로 나눠줌-->
+                    
+                    <p class="gray">홈 > 장난감 > 막대장난감 </p>
+
+                    <div id="fifth">
+                        <div class="right_title">
+                            <p class="m_toy">쥬아펫 1m 왕타조깃털 고양이장난감</p>
+                        </div>
+                        <div id="heart2">
+                            <a href="#"><i class="far fa-heart" id="heart3"></i></a>
+                        </div>
+                    </div>
+
+                    <p class="seconddetail">15,900 원</p>
+
+                    <div class="productdetail2"> <!--택배 정보-->
+                        <div class="boxone"> <!--택배정보를 좌우로 반반 나눠주었으며, 왼쪽에 해당하는 div 태그-->
+                            <table>
+                                <tr>
+                                    <td>국내 * 해외배송</td>
+                                    <td>국내배송</td>
+                                </tr>
+                                <tr>
+                                    <td>배송방법</td>
+                                    <td>택배</td>
+                                </tr>
+                                <tr>
+                                    <td>브랜드</td>
+                                    <td>자체브랜드</td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+
+                    <div class="option">
+                        <select style="width:600px;height:30px;" name="옵션"> 
+                        <option value="- [필수] 옵션을 선택해주세요.">- [필수] 옵션을 선택해주세요.</option>
+                        <option value="- [필수] 옵션을 선택해주세요.">------------------------------</option>
+                        <option value="- [필수] 옵션을 선택해주세요.">1m 왕타조깃털 고양이장난감</option>
+                    </div>
+
+                        <div class="product_inform">
+                            <p>상품명</p>
+                        </div>
+
+
+                 
+
+                    <input text="" placeholder="리뷰를 입력해주세요" class="reviewcomment"
+                            onkeyup="if(window.event.keyCode==13){test()}"> <!--후반부에 구현할 댓글 입력을 위한 input 태그-->
+            </div>
+         
+   
+   
+   
+     </section>
+
+</div>
+
+</body>
+
+</html>
