@@ -38,7 +38,9 @@ footer p span {
     margin: 0 20px 10px 20px;
 }
 
-/* footer img{
-    width: 80px;
-    position: absolute;
-} */
+footer img{
+    position: fixed;
+    bottom:100px;
+    top:800px;
+    right: 100px;
+}

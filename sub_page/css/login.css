@@ -83,4 +83,15 @@ body::before{
 .caption a{
   font-size: 15px; color: #999;
   text-decoration: none;
+  margin-right: 10px;
+}
+
+.kakao_login{
+text-align: center;
+margin: 20px;
+}
+
+#kakao{
+ width: 200px;
+  object-fit: cover;
 }
